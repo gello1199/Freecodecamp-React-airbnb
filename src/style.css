@@ -15,6 +15,14 @@ body {
 
 }
 
+.bold {
+    font-weight: bold;
+}
+
+.gray {
+    color: #918E9B;
+}
+
 section {
     padding: 20px;
 }
@@ -54,11 +62,22 @@ left: 36px;
 top: 416px;
 }
 
+.card {
+    width: 176px;
+    font-size: 12px;
+}
+
 .card--img {
-position: absolute;
-width: 176px;
-height: 235px;
-left: 37px;
-top: 521px;
+width: 100%;
 border-radius: 9px;
 }
+
+.card--stats {
+    display: flex;
+    align-items: center;
+}
+
+.card--star {
+    height: 14px;
+}
+

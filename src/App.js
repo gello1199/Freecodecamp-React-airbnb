@@ -8,7 +8,14 @@ const App = () => {
         <div>
             <Navbar />
             <Hero />
-            <Card />
+            <Card 
+                img={"https://clipart.world/wp-content/uploads/2020/09/Orange-star-clipart-transparent.png"}
+                rating={"5.0"}
+                reviewCount={6}
+                country={"USA"}
+                title={"Life Lessons with Olympic Athlete"}
+                price={136}
+            />
         </div>
     );
 }

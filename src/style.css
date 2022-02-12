@@ -39,7 +39,7 @@ section {
 
 .hero--photo {
     max-width: 400px;
-    /* align-self: center; */
+    align-self: center;
 
 }
 
@@ -59,7 +59,7 @@ section {
 }
 
 .card {
-    width: 176px;
+    width: 175px;
     font-size: 12px;
     flex: 0 0 auto;
     display: flex;
@@ -70,6 +70,7 @@ section {
 .card--img {
 width: 100%;
 border-radius: 9px;
+margin-bottom: 9px;
 }
 
 .card--title {
